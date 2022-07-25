@@ -1,6 +1,6 @@
 dsconfig set-log-publisher-prop \
   --publisher-name "File-Based Debug Logger" \
-  --set enabled:true
+  --set enabled:thisisbad
 
 dsconfig create-debug-target \
   --publisher-name "File-Based Debug Logger" \
